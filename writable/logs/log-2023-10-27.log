@@ -1,0 +1,1493 @@
+INFO - 2023-10-27 10:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 10:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 10:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 10:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 10:55:27 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 11:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 11:38:06 --> Unsupported operand types: int - stdClass
+in APPPATH/Controllers/Salesscreen.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 11:38:08 --> Unsupported operand types: int - stdClass
+in APPPATH/Controllers/Salesscreen.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 11:38:16 --> Unsupported operand types: int - stdClass
+in APPPATH/Controllers/Salesscreen.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 11:38:18 --> Unsupported operand types: int - stdClass
+in APPPATH/Controllers/Salesscreen.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 11:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-27 11:40:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT SUM(amou...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(amou...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(amou...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT SUM(amou...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(69): App\Models\SalesscreenModel->getSumAmount(NULL)
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 11:40:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/SalesscreenModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT SUM(amount) FROM tbl_transaction WHERE ref_id = ')
+ 2 APPPATH/Controllers/Salesscreen.php(69): App\Models\SalesscreenModel->getSumAmount(null)
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 11:40:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT SUM(amou...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(amou...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(amou...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT SUM(amou...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(69): App\Models\SalesscreenModel->getSumAmount(NULL)
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 11:40:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/SalesscreenModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT SUM(amount) FROM tbl_transaction WHERE ref_id = ')
+ 2 APPPATH/Controllers/Salesscreen.php(69): App\Models\SalesscreenModel->getSumAmount(null)
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 11:40:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT SUM(amou...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(amou...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(amou...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT SUM(amou...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(69): App\Models\SalesscreenModel->getSumAmount(NULL)
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 11:40:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/SalesscreenModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT SUM(amount) FROM tbl_transaction WHERE ref_id = ')
+ 2 APPPATH/Controllers/Salesscreen.php(69): App\Models\SalesscreenModel->getSumAmount(null)
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 11:40:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT SUM(amou...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(amou...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(amou...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT SUM(amou...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(69): App\Models\SalesscreenModel->getSumAmount(NULL)
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 11:40:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/SalesscreenModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT SUM(amount) FROM tbl_transaction WHERE ref_id = ')
+ 2 APPPATH/Controllers/Salesscreen.php(69): App\Models\SalesscreenModel->getSumAmount(null)
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 11:40:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT SUM(amou...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(amou...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(amou...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT SUM(amou...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(69): App\Models\SalesscreenModel->getSumAmount(NULL)
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 11:40:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/SalesscreenModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT SUM(amount) FROM tbl_transaction WHERE ref_id = ')
+ 2 APPPATH/Controllers/Salesscreen.php(69): App\Models\SalesscreenModel->getSumAmount(null)
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 11:40:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT SUM(amou...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(amou...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(amou...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT SUM(amou...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(69): App\Models\SalesscreenModel->getSumAmount(NULL)
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 11:40:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/SalesscreenModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT SUM(amount) FROM tbl_transaction WHERE ref_id = ')
+ 2 APPPATH/Controllers/Salesscreen.php(69): App\Models\SalesscreenModel->getSumAmount(null)
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 11:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 11:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 12:00:30 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 12:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 12:01:03 --> Unsupported operand types: string + stdClass
+in APPPATH/Controllers/Salesscreen.php on line 277.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('19')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 12:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 12:21:56 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 12:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 12:23:16 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 12:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 12:25:55 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 12:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 12:29:09 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 12:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 12:36:34 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 12:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 12:47:57 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 12:48:11 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 12:48:20 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 12:52:47 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 12:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 12:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:06:08 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:07:24 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:07:34 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:07:51 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:09:35 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:09:51 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:11:42 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:12:49 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:12:49 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:12:55 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:12:55 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:12:55 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:12:58 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:13:00 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:13:01 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:13:02 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:13:03 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:13:03 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:13:04 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:13:04 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:13:05 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:13:09 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:14:45 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:14:56 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:14:56 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:15:02 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:15:02 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:15:03 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:15:03 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:15:04 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:15:04 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:15:05 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:15:09 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:15:10 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:15:11 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:15:11 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:15:11 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:15:39 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:25:14 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:26:07 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:26:21 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:27:25 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:27:25 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:27:27 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:31:43 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:31:43 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:31:44 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:34:50 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:34:50 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:34:51 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:35:34 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:35:39 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:38:55 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 13:41:21 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 13:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 13:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 14:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 14:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:40:06 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:40:31 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...], false)
+ 6 APPPATH/Models/SalesscreenModel.php(68): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH/Controllers/Salesscreen.php(318): App\Models\SalesscreenModel->addTransData([...])
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:41:37 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...], false)
+ 6 APPPATH/Models/SalesscreenModel.php(68): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH/Controllers/Salesscreen.php(318): App\Models\SalesscreenModel->addTransData([...])
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 14:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:42:21 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...], false)
+ 6 APPPATH/Models/SalesscreenModel.php(68): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH/Controllers/Salesscreen.php(318): App\Models\SalesscreenModel->addTransData([...])
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:42:44 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...], false)
+ 6 APPPATH/Models/SalesscreenModel.php(68): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH/Controllers/Salesscreen.php(318): App\Models\SalesscreenModel->addTransData([...])
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 14:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 14:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:43:25 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...], false)
+ 6 APPPATH/Models/SalesscreenModel.php(68): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH/Controllers/Salesscreen.php(318): App\Models\SalesscreenModel->addTransData([...])
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:43:30 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...], false)
+ 6 APPPATH/Models/SalesscreenModel.php(68): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH/Controllers/Salesscreen.php(318): App\Models\SalesscreenModel->addTransData([...])
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:44:20 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_transaction` (`ref_id`, `trans_code`, `trans_type`, `amount`, `prev_amount`, `trans_date`, `status`, `created_by`, `created_at`) VALUES (:ref_id:, :trans_code:, :trans_type:, :amount:, :prev_amount:, :trans_date:, :status:, :created_by:, :created_at:)', [...], false)
+ 6 APPPATH/Models/SalesscreenModel.php(68): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH/Controllers/Salesscreen.php(318): App\Models\SalesscreenModel->addTransData([...])
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 14:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 14:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:44:25 --> Unsupported operand types: string + string
+in APPPATH/Controllers/Salesscreen.php on line 277.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:46:08 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Salesscreen.php on line 277.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:46:56 --> Unsupported operand types: string + string
+in APPPATH/Controllers/Salesscreen.php on line 277.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:48:39 --> Unsupported operand types: string + string
+in APPPATH/Controllers/Salesscreen.php on line 278.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:49:01 --> Unsupported operand types: string + stdClass
+in APPPATH/Controllers/Salesscreen.php on line 278.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:50:04 --> Unsupported operand types: string + string
+in APPPATH/Controllers/Salesscreen.php on line 277.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 14:59:03 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Salesscreen.php on line 276.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('7')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 14:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 15:12:18 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:12:18 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:12:19 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:12:19 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:12:19 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:12:20 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:12:20 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:12:22 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 15:13:03 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 15:14:39 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:14:53 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 15:22:14 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 15:25:09 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:17 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:17 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:17 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:18 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:18 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:19 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:19 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:19 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:19 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:20 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:20 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:20 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:20 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:21 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:22 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:23 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:23 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:33 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:25:45 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:26:09 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:26:17 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:28:22 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:28:22 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:28:23 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:28:24 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 15:30:13 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 15:35:40 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 15:36:31 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 15:40:59 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 15:42:57 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:42:58 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:42:58 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:42:59 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:42:59 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:43:01 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:43:01 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:43:01 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:43:01 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:43:02 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:43:02 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:43:03 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:43:03 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:43:03 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:43:04 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:43:04 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 15:43:04 --> Unsupported operand types: string - string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getDueAmount()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 16:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 17:22:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Category.php(58): CodeIgniter\Model->__call('getData', [])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Category->viewData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 17:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 17:33:53 --> Undefined property: stdClass::$type
+in APPPATH/Views/admin/ex_category/editcategory.php on line 34.
+ 1 APPPATH/Views/admin/ex_category/editcategory.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$type', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/ex_category/editcategory.php', 34)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/ex_category/editcategory.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/ex_category/editcategory', [], true)
+ 5 APPPATH/Controllers/Category.php(67): view('admin/ex_category/editcategory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Category->editData('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 17:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 17:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 18:04:30 --> Undefined variable $branches
+in APPPATH/Views/admin/expense/addexpense.php on line 55.
+ 1 APPPATH/Views/admin/expense/addexpense.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branches', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/expense/addexpense.php', 55)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/expense/addexpense.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/expense/addexpense', [], true)
+ 5 APPPATH/Controllers/Expense.php(13): view('admin/expense/addexpense', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Expense->create()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expense))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 18:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 18:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 19:11:52 --> Undefined variable $category
+in APPPATH/Views/admin/expense/editexpense.php on line 28.
+ 1 APPPATH/Views/admin/expense/editexpense.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/expense/editexpense.php', 28)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/expense/editexpense.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/expense/editexpense', [], true)
+ 5 APPPATH/Controllers/Expense.php(93): view('admin/expense/editexpense', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Expense->editData('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expense))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 19:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 19:15:26 --> Undefined property: stdClass::$amount
+in APPPATH/Views/admin/expense/editexpense.php on line 49.
+ 1 APPPATH/Views/admin/expense/editexpense.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$amount', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/expense/editexpense.php', 49)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/expense/editexpense.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/expense/editexpense', [], true)
+ 5 APPPATH/Controllers/Expense.php(94): view('admin/expense/editexpense', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Expense->editData('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expense))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 19:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-27 19:30:28 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT tbl_expe...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tbl_expe...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbl_expe...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ExpenseModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT tbl_expe...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Expense.php(84): App\Models\ExpenseModel->getData()
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Expense->viewData()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expense))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 19:30:28 --> Column 'status' in where clause is ambiguous
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ExpenseModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT tbl_expense_category.id AS cat_id, tbl_expense_category.name, tbl_expense.*
+        FROM tbl_expense
+        JOIN tbl_expense_category ON tbl_expense.category_id = tbl_expense_category.id
+        WHERE status = \'active\'')
+ 2 APPPATH/Controllers/Expense.php(84): App\Models\ExpenseModel->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Expense->viewData()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expense))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 19:30:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN tbl_expense_category ON tbl_expense.category_id = tbl_expense_category.id' at line 3 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT tbl_expe...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tbl_expe...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbl_expe...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ExpenseModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT tbl_expe...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Expense.php(84): App\Models\ExpenseModel->getData()
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Expense->viewData()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expense))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 19:30:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN tbl_expense_category ON tbl_expense.category_id = tbl_expense_category.id' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ExpenseModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT tbl_expense_category.id AS cat_id, tbl_expense_category.name, tbl_expense.*
+        FROM tbl_expense WHERE status = \'active\'
+        JOIN tbl_expense_category ON tbl_expense.category_id = tbl_expense_category.id')
+ 2 APPPATH/Controllers/Expense.php(84): App\Models\ExpenseModel->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Expense->viewData()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expense))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 19:31:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM tbl_expense 
+        JOIN tbl_expense_category ON tbl_expense.category_i...' at line 2 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT tbl_expe...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tbl_expe...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbl_expe...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ExpenseModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT tbl_expe...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Expense.php(84): App\Models\ExpenseModel->getData()
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Expense->viewData()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expense))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 19:31:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM tbl_expense 
+        JOIN tbl_expense_category ON tbl_expense.category_i...' at line 2
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ExpenseModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT tbl_expense_category.id AS cat_id, tbl_expense_category.name, tbl_expense.* WHERE status = \'active\'
+        FROM tbl_expense 
+        JOIN tbl_expense_category ON tbl_expense.category_id = tbl_expense_category.id')
+ 2 APPPATH/Controllers/Expense.php(84): App\Models\ExpenseModel->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Expense->viewData()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expense))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 19:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 19:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

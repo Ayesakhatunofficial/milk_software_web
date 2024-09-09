@@ -1,0 +1,172 @@
+CRITICAL - 2023-10-09 06:09:38 --> include(/layout/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/backend/home.php on line 1.
+ 1 APPPATH/Views/backend/home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/layout/header.php): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/codeigniter4/app/Views/backend/home.php', 1)
+ 2 APPPATH/Views/backend/home.php(1): include()
+ 3 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/codeigniter4/app/Views/backend/home.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/home', [], true)
+ 6 APPPATH/Controllers/Home.php(13): view('backend/home')
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->show()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 06:09:39 --> include(/layout/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/backend/home.php on line 1.
+ 1 APPPATH/Views/backend/home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/layout/header.php): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/codeigniter4/app/Views/backend/home.php', 1)
+ 2 APPPATH/Views/backend/home.php(1): include()
+ 3 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/codeigniter4/app/Views/backend/home.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/home', [], true)
+ 6 APPPATH/Controllers/Home.php(13): view('backend/home')
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->show()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 06:09:40 --> include(/layout/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/backend/home.php on line 1.
+ 1 APPPATH/Views/backend/home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/layout/header.php): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/codeigniter4/app/Views/backend/home.php', 1)
+ 2 APPPATH/Views/backend/home.php(1): include()
+ 3 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/codeigniter4/app/Views/backend/home.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/home', [], true)
+ 6 APPPATH/Controllers/Home.php(13): view('backend/home')
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->show()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 06:09:40 --> include(/layout/header.php): Failed to open stream: No such file or directory
+in APPPATH/Views/backend/home.php on line 1.
+ 1 APPPATH/Views/backend/home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/layout/header.php): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/codeigniter4/app/Views/backend/home.php', 1)
+ 2 APPPATH/Views/backend/home.php(1): include()
+ 3 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/codeigniter4/app/Views/backend/home.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/home', [], true)
+ 6 APPPATH/Controllers/Home.php(13): view('backend/home')
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->show()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 06:39:57 --> Call to undefined method CodeIgniter\Router\RouteCollection::name()
+in APPPATH/Config/Routes.php on line 9.
+ 1 SYSTEMPATH/Router/RouteCollection.php(339): require()
+ 2 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 06:59:12 --> Invalid file: "backend/user-profle.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/user-profle.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/user-profle', [], true)
+ 3 APPPATH/Controllers/Home.php(16): view('backend/user-profle')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->userProfile()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 06:59:35 --> Invalid file: "backend/user-profile.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/user-profile.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/user-profile', [], true)
+ 3 APPPATH/Controllers/Home.php(16): view('backend/user-profile')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->userProfile()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 06:59:37 --> Invalid file: "backend/user-profile.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/user-profile.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/user-profile', [], true)
+ 3 APPPATH/Controllers/Home.php(16): view('backend/user-profile')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->userProfile()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 07:00:28 --> Invalid file: "backend/user-profile.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/user-profile.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/user-profile', [], true)
+ 3 APPPATH/Controllers/Home.php(16): view('backend/user-profile')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->userProfile()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 07:00:30 --> Invalid file: "backend/user-profile.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/user-profile.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/user-profile', [], true)
+ 3 APPPATH/Controllers/Home.php(16): view('backend/user-profile')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->userProfile()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 07:41:30 --> Invalid file: "backend/home.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/home.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/home', [], true)
+ 3 APPPATH/Controllers/Home.php(14): view('backend/home')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->show()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 07:41:32 --> Invalid file: "backend/home.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/home.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/home', [], true)
+ 3 APPPATH/Controllers/Home.php(14): view('backend/home')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->show()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 07:41:36 --> Invalid file: "backend/users-profile.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/users-profile.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/users-profile', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('backend/users-profile')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->userProfile()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 07:41:38 --> Invalid file: "backend/users-profile.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/users-profile.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/users-profile', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('backend/users-profile')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->userProfile()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 07:41:39 --> Invalid file: "backend/users-profile.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/users-profile.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/users-profile', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('backend/users-profile')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->userProfile()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 07:41:41 --> Invalid file: "backend/home.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/home.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/home', [], true)
+ 3 APPPATH/Controllers/Home.php(14): view('backend/home')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->show()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 07:41:53 --> Invalid file: "backend/home.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/home.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('backend/home', [], true)
+ 3 APPPATH/Controllers/Home.php(14): view('backend/home')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->show()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-09 12:00:57 --> syntax error, unexpected token "}"
+in APPPATH/Controllers/UserController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/codeigniter4/app/Controllers/UserController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()

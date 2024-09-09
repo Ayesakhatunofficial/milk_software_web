@@ -1,0 +1,822 @@
+INFO - 2023-11-06 10:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 10:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 10:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 10:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 10:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 10:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 11:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 11:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 11:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 11:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 12:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 12:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 12:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 12:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 12:17:53 --> Undefined variable $data
+in APPPATH/Views/admin/rate_chart/addchart.php on line 34.
+ 1 APPPATH/Views/admin/rate_chart/addchart.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/addchart.php', 34)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/addchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/addchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(13): view('admin/rate_chart/addchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Create()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 12:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 12:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 12:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 12:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 12:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 13:01:08 --> You must use the "set" method to insert an entry.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2350.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2290): CodeIgniter\Database\BaseBuilder->validateInsert()
+ 2 APPPATH/Models/RateChartModel.php(32): CodeIgniter\Database\BaseBuilder->insert([])
+ 3 APPPATH/Controllers/RateChart.php(88): App\Models\RateChartModel->addCsvData([])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 13:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 13:11:46 --> You must use the "set" method to insert an entry.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2350.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2290): CodeIgniter\Database\BaseBuilder->validateInsert()
+ 2 APPPATH/Models/RateChartModel.php(32): CodeIgniter\Database\BaseBuilder->insert([])
+ 3 APPPATH/Controllers/RateChart.php(97): App\Models\RateChartModel->addCsvData([])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 13:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 13:16:46 --> Undefined variable $i
+in APPPATH/Controllers/RateChart.php on line 79.
+ 1 APPPATH/Controllers/RateChart.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', '/opt/lampp/htdocs/Milk-Software/app/Controllers/RateChart.php', 79)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 13:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 14:47:36 --> Undefined property: stdClass::$farmer_name
+in APPPATH/Views/admin/rate_chart/viewchart.php on line 55.
+ 1 APPPATH/Views/admin/rate_chart/viewchart.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$farmer_name', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php', 55)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/viewchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(103): view('admin/rate_chart/viewchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 14:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 15:07:46 --> Attempt to read property "id" on null
+in APPPATH/Views/admin/milk_collection/editcollection.php on line 28.
+ 1 APPPATH/Views/admin/milk_collection/editcollection.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php', 28)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/milk_collection/editcollection', [], true)
+ 5 APPPATH/Controllers/MilkCollection.php(144): view('admin/milk_collection/editcollection', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->editData('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 15:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 15:07:54 --> Undefined variable $result
+in APPPATH/Views/admin/rate_chart/editchart.php on line 22.
+ 1 APPPATH/Views/admin/rate_chart/editchart.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/editchart.php', 22)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/editchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/editchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(113): view('admin/rate_chart/editchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->editData('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 15:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 15:08:43 --> Undefined variable $result
+in APPPATH/Views/admin/rate_chart/editchart.php on line 24.
+ 1 APPPATH/Views/admin/rate_chart/editchart.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/editchart.php', 24)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/editchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/editchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(113): view('admin/rate_chart/editchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->editData('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 15:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 15:29:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) VALUES (:2:)' at line 1 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/RateChartModel.php(32): CodeIgniter\Database\BaseBuilder->insert('2')
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/RateChart.php(188): App\Models\RateChartModel->addCsvData('2', Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\RateChart->updateData('2')
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 15:29:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) VALUES (:2:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_price_chart` (2) VALUES (:2:)', [...], false)
+ 2 APPPATH/Models/RateChartModel.php(32): CodeIgniter\Database\BaseBuilder->insert('2')
+ 3 APPPATH/Controllers/RateChart.php(188): App\Models\RateChartModel->addCsvData('2', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->updateData('2')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 15:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 15:29:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) VALUES (:2:)' at line 1 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/RateChartModel.php(32): CodeIgniter\Database\BaseBuilder->insert('2')
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/RateChart.php(188): App\Models\RateChartModel->addCsvData('2', Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\RateChart->updateData('2')
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 15:29:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) VALUES (:2:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_price_chart` (2) VALUES (:2:)', [...], false)
+ 2 APPPATH/Models/RateChartModel.php(32): CodeIgniter\Database\BaseBuilder->insert('2')
+ 3 APPPATH/Controllers/RateChart.php(188): App\Models\RateChartModel->addCsvData('2', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->updateData('2')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 15:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 15:30:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) VALUES (:2:)' at line 1 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/RateChartModel.php(32): CodeIgniter\Database\BaseBuilder->insert('2')
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/RateChart.php(188): App\Models\RateChartModel->addCsvData('2', Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\RateChart->updateData('2')
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 15:30:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) VALUES (:2:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_price_chart` (2) VALUES (:2:)', [...], false)
+ 2 APPPATH/Models/RateChartModel.php(32): CodeIgniter\Database\BaseBuilder->insert('2')
+ 3 APPPATH/Controllers/RateChart.php(188): App\Models\RateChartModel->addCsvData('2', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->updateData('2')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 15:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 15:33:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) VALUES (:2:)' at line 1 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/RateChartModel.php(32): CodeIgniter\Database\BaseBuilder->insert('2')
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/RateChart.php(188): App\Models\RateChartModel->addCsvData('2', Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\RateChart->updateData('2')
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 15:33:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) VALUES (:2:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_price_chart` (2) VALUES (:2:)', [...], false)
+ 2 APPPATH/Models/RateChartModel.php(32): CodeIgniter\Database\BaseBuilder->insert('2')
+ 3 APPPATH/Controllers/RateChart.php(188): App\Models\RateChartModel->addCsvData('2', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->updateData('2')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 15:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 15:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 16:11:55 --> Undefined property: App\Controllers\RateChart::$input
+in APPPATH/Controllers/RateChart.php on line 105.
+ 1 APPPATH/Controllers/RateChart.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\RateChart::$input', '/opt/lampp/htdocs/Milk-Software/app/Controllers/RateChart.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 16:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 16:16:12 --> Undefined variable $pager
+in APPPATH/Views/admin/rate_chart/viewchart.php on line 70.
+ 1 APPPATH/Views/admin/rate_chart/viewchart.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php', 70)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/viewchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(104): view('admin/rate_chart/viewchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 16:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 16:48:22 --> Undefined variable $data1
+in APPPATH/Views/admin/rate_chart/viewchart.php on line 23.
+ 1 APPPATH/Views/admin/rate_chart/viewchart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php', 23)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/viewchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(111): view('admin/rate_chart/viewchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 16:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 16:49:04 --> Attempt to read property "id" on array
+in APPPATH/Views/admin/rate_chart/viewchart.php on line 23.
+ 1 APPPATH/Views/admin/rate_chart/viewchart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php', 23)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/viewchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(111): view('admin/rate_chart/viewchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 16:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 16:49:06 --> Attempt to read property "id" on array
+in APPPATH/Views/admin/rate_chart/viewchart.php on line 23.
+ 1 APPPATH/Views/admin/rate_chart/viewchart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php', 23)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/viewchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(111): view('admin/rate_chart/viewchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 16:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 16:49:11 --> Attempt to read property "id" on array
+in APPPATH/Views/admin/rate_chart/viewchart.php on line 23.
+ 1 APPPATH/Views/admin/rate_chart/viewchart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php', 23)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/viewchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(111): view('admin/rate_chart/viewchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 16:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 16:50:21 --> Attempt to read property "ref_id" on array
+in APPPATH/Views/admin/rate_chart/viewchart.php on line 23.
+ 1 APPPATH/Views/admin/rate_chart/viewchart.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ref_id" on array', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php', 23)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/viewchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(111): view('admin/rate_chart/viewchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 16:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 16:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:11:21 --> Call to a member function links() on null
+in APPPATH/Views/admin/rate_chart/viewchart.php on line 70.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/viewchart', [], true)
+ 4 APPPATH/Controllers/RateChart.php(112): view('admin/rate_chart/viewchart', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:16:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/RateChartModel.php(69): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('7')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:17:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/RateChartModel.php(69): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('7')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:17:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/RateChartModel.php(69): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('7')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:17:51 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/RateChartModel.php(69): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('7')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:17:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/RateChartModel.php(69): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('7')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:18:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/RateChartModel.php(69): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('1')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('1')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:18:09 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/RateChartModel.php(69): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('1')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('1')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:21:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/RateChartModel.php(69): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('1')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('1')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:21:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/RateChartModel.php(69): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('1')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('1')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:22:18 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/RateChartModel.php(69): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('1')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('1')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:22:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/RateChartModel.php(69): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('1')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('1')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:23:06 --> Call to a member function paginate() on array
+in APPPATH/Controllers/RateChart.php on line 110.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:25:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/RateChartModel.php(73): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('7')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:25:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 APPPATH/Models/RateChartModel.php(73): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('7')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:25:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 APPPATH/Models/RateChartModel.php(73): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('7')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:25:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 APPPATH/Models/RateChartModel.php(73): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('7')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:26:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 APPPATH/Models/RateChartModel.php(73): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH/Controllers/RateChart.php(110): App\Models\RateChartModel->getData('1')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('1')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:26:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/RateChart.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('1')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:28:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/RateChart.php on line 112.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('1')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:28:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH/Controllers/RateChart.php on line 112.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('1')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:52:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(184): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind(true, '7')
+ 4 APPPATH/Controllers/RateChart.php(111): CodeIgniter\BaseModel->find('7')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:53:41 --> Attempt to read property "shift_name" on array
+in APPPATH/Views/admin/rate_chart/viewchart.php on line 27.
+ 1 APPPATH/Views/admin/rate_chart/viewchart.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "shift_name" on array', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php', 27)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/viewchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(113): view('admin/rate_chart/viewchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:55:18 --> Undefined array key 0
+in APPPATH/Views/admin/rate_chart/viewchart.php on line 27.
+ 1 APPPATH/Views/admin/rate_chart/viewchart.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php', 27)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/viewchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(113): view('admin/rate_chart/viewchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:55:42 --> Undefined array key 0
+in APPPATH/Views/admin/rate_chart/viewchart.php on line 27.
+ 1 APPPATH/Views/admin/rate_chart/viewchart.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php', 27)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/viewchart.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/viewchart', [], true)
+ 5 APPPATH/Controllers/RateChart.php(113): view('admin/rate_chart/viewchart', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('1')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 17:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 17:56:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(184): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind(true, '7')
+ 4 APPPATH/Controllers/RateChart.php(111): CodeIgniter\BaseModel->find('7')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->viewData('7')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 18:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 18:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 19:30:45 --> Unsupported operand types: string * int
+in APPPATH/Controllers/Salesscreen.php on line 49.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 19:30:48 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 49.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 19:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 19:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 20:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

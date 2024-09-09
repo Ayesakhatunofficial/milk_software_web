@@ -1,0 +1,2120 @@
+INFO - 2023-11-21 10:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 10:54:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 10:54:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.ref_id
+                    GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                    GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+                    GROUP_CONCAT(tbl_sales_item.price) AS prices,
+                    GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 10:54:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 10:54:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.ref_id
+                    GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                    GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+                    GROUP_CONCAT(tbl_sales_item.price) AS prices,
+                    GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 10:54:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 10:54:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.ref_id
+                    GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                    GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+                    GROUP_CONCAT(tbl_sales_item.price) AS prices,
+                    GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 10:54:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 10:54:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.ref_id
+                    GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                    GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+                    GROUP_CONCAT(tbl_sales_item.price) AS prices,
+                    GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 10:54:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 10:54:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.ref_id
+                    GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                    GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+                    GROUP_CONCAT(tbl_sales_item.price) AS prices,
+                    GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 10:54:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 10:54:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.ref_id
+                    GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                    GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+                    GROUP_CONCAT(tbl_sales_item.price) AS prices,
+                    GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 10:55:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 10:55:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.ref_id
+                    GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                    GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+                    GROUP_CONCAT(tbl_sales_item.price) AS prices,
+                    GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 10:55:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 10:55:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.ref_id
+                    GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                    GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+                    GROUP_CONCAT(tbl_sales_item.price) AS prices,
+                    GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 10:55:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 10:55:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.ref_id
+                    GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                    GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+                    GROUP_CONCAT(tbl_sales_item.price) AS prices,
+                    GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 10:55:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 10:55:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.ref_id
+                    GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                    GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+                    GROUP_CONCAT(tbl_sales_item.price) AS prices,
+                    GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 10:56:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 10:56:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.ref_id
+                    GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                    GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+                    GROUP_CONCAT(tbl_sales_item.price) AS prices,
+                    GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 10:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 10:57:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 10:57:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                 ...' at line 10
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(168): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    GROUP_CONCAT(tbl_items.name) as item_names,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.ref_id
+                    GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+                    GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+                    GROUP_CONCAT(tbl_sales_item.price) AS prices,
+                    GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 11:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 11:00:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 
+        GROUP BY tbl_sales_item.ref_id' at line 22 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(170): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:00:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 
+        GROUP BY tbl_sales_item.ref_id' at line 22
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(170): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'. 
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 11:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 11:02:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.  . 
+        GROUP BY tbl_sales_item.ref_id' at line 23 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(172): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:02:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.  . 
+        GROUP BY tbl_sales_item.ref_id' at line 23
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(172): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+            .  . 
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 11:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 11:09:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:09:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            tbl_sales_item.quantity
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 11:09:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:09:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            tbl_sales_item.quantity
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 11:09:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:09:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            tbl_sales_item.quantity
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 11:10:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:10:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            tbl_sales_item.quantity
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 11:10:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:10:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            tbl_sales_item.quantity
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 11:10:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:10:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            tbl_sales_item.quantity
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 11:10:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:10:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            tbl_sales_item.quantity
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 11:10:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:10:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            tbl_sales_item.quantity
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 11:10:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:10:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            tbl_sales_item.quantity
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 11:10:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:10:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            tbl_sales_item.quantity
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 11:10:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:10:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            tbl_sales_item.quantity
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 11:10:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 11:10:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(171): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            tbl_sales_item.quantity
+            GROUP_CONCAT(tbl_sales_item.product_type) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 11:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 11:27:11 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 11:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 11:32:07 --> Undefined property: stdClass::$milk_type
+in APPPATH/Views/admin/salesscreen/editscreen.php on line 124.
+ 1 APPPATH/Views/admin/salesscreen/editscreen.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$milk_type', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/editscreen.php', 124)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/editscreen.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/editscreen', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(330): view('admin/salesscreen/editscreen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->editData('35')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 11:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 12:11:39 --> Undefined property: stdClass::$product_type
+in APPPATH/Views/admin/salesscreen/editscreen.php on line 210.
+ 1 APPPATH/Views/admin/salesscreen/editscreen.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$product_type', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/editscreen.php', 210)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/editscreen.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/editscreen', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(331): view('admin/salesscreen/editscreen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->editData('35')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 12:22:57 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 12:23:11 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 12:24:37 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 12:24:43 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 12:27:13 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 12:27:36 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 12:45:11 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 12:45:18 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 12:46:54 --> mysqli_sql_exception: Unknown column 'milk_type' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `tbl_sal...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_sal...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_sal...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sal...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 12:46:54 --> Unknown column 'milk_type' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sales_screen` SET `customer_id` = :customer_id:, `date` = :date:, `shift_id` = :shift_id:, `sale_type` = :sale_type:, `milk_type` = :milk_type:, `product_type` = :product_type:, `quantity` = :quantity:, `price` = :price:, `per_price` = :per_price:, `discount` = :discount:, `total_amount` = :total_amount:, `paid_amount` = :paid_amount:, `due_amount` = :due_amount:, `status` = :status:, `modified_by` = :modified_by:, `modified_at` = :modified_at:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 12:46:59 --> mysqli_sql_exception: Unknown column 'milk_type' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `tbl_sal...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_sal...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_sal...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sal...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 12:46:59 --> Unknown column 'milk_type' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sales_screen` SET `customer_id` = :customer_id:, `date` = :date:, `shift_id` = :shift_id:, `sale_type` = :sale_type:, `milk_type` = :milk_type:, `product_type` = :product_type:, `quantity` = :quantity:, `price` = :price:, `per_price` = :per_price:, `discount` = :discount:, `total_amount` = :total_amount:, `paid_amount` = :paid_amount:, `due_amount` = :due_amount:, `status` = :status:, `modified_by` = :modified_by:, `modified_at` = :modified_at:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 12:47:30 --> mysqli_sql_exception: Unknown column 'milk_type' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `tbl_sal...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_sal...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_sal...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sal...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 12:47:30 --> Unknown column 'milk_type' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sales_screen` SET `customer_id` = :customer_id:, `date` = :date:, `shift_id` = :shift_id:, `sale_type` = :sale_type:, `milk_type` = :milk_type:, `product_type` = :product_type:, `quantity` = :quantity:, `price` = :price:, `per_price` = :per_price:, `discount` = :discount:, `total_amount` = :total_amount:, `paid_amount` = :paid_amount:, `due_amount` = :due_amount:, `status` = :status:, `modified_by` = :modified_by:, `modified_at` = :modified_at:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 12:47:45 --> mysqli_sql_exception: Unknown column 'milk_type' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `tbl_sal...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_sal...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_sal...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sal...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 12:47:45 --> Unknown column 'milk_type' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sales_screen` SET `customer_id` = :customer_id:, `date` = :date:, `shift_id` = :shift_id:, `sale_type` = :sale_type:, `milk_type` = :milk_type:, `product_type` = :product_type:, `quantity` = :quantity:, `price` = :price:, `per_price` = :per_price:, `discount` = :discount:, `total_amount` = :total_amount:, `paid_amount` = :paid_amount:, `due_amount` = :due_amount:, `status` = :status:, `modified_by` = :modified_by:, `modified_at` = :modified_at:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 12:47:49 --> mysqli_sql_exception: Unknown column 'milk_type' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `tbl_sal...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_sal...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_sal...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sal...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 12:47:49 --> Unknown column 'milk_type' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sales_screen` SET `customer_id` = :customer_id:, `date` = :date:, `shift_id` = :shift_id:, `sale_type` = :sale_type:, `milk_type` = :milk_type:, `product_type` = :product_type:, `quantity` = :quantity:, `price` = :price:, `per_price` = :per_price:, `discount` = :discount:, `total_amount` = :total_amount:, `paid_amount` = :paid_amount:, `due_amount` = :due_amount:, `status` = :status:, `modified_by` = :modified_by:, `modified_at` = :modified_at:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 12:47:54 --> mysqli_sql_exception: Unknown column 'milk_type' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `tbl_sal...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_sal...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_sal...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sal...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 12:47:54 --> Unknown column 'milk_type' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sales_screen` SET `customer_id` = :customer_id:, `date` = :date:, `shift_id` = :shift_id:, `sale_type` = :sale_type:, `milk_type` = :milk_type:, `product_type` = :product_type:, `quantity` = :quantity:, `price` = :price:, `per_price` = :per_price:, `discount` = :discount:, `total_amount` = :total_amount:, `paid_amount` = :paid_amount:, `due_amount` = :due_amount:, `status` = :status:, `modified_by` = :modified_by:, `modified_at` = :modified_at:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 12:48:09 --> mysqli_sql_exception: Unknown column 'milk_type' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `tbl_sal...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_sal...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_sal...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sal...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 12:48:09 --> Unknown column 'milk_type' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sales_screen` SET `customer_id` = :customer_id:, `date` = :date:, `shift_id` = :shift_id:, `sale_type` = :sale_type:, `milk_type` = :milk_type:, `product_type` = :product_type:, `quantity` = :quantity:, `price` = :price:, `per_price` = :per_price:, `discount` = :discount:, `total_amount` = :total_amount:, `paid_amount` = :paid_amount:, `due_amount` = :due_amount:, `status` = :status:, `modified_by` = :modified_by:, `modified_at` = :modified_at:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 12:49:35 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 12:49:37 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 12:49:43 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 12:49:50 --> mysqli_sql_exception: Unknown column 'milk_type' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `tbl_sal...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_sal...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_sal...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sal...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 12:49:50 --> Unknown column 'milk_type' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sales_screen` SET `customer_id` = :customer_id:, `date` = :date:, `shift_id` = :shift_id:, `sale_type` = :sale_type:, `milk_type` = :milk_type:, `product_type` = :product_type:, `quantity` = :quantity:, `price` = :price:, `per_price` = :per_price:, `discount` = :discount:, `total_amount` = :total_amount:, `paid_amount` = :paid_amount:, `due_amount` = :due_amount:, `status` = :status:, `modified_by` = :modified_by:, `modified_at` = :modified_at:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Models/SalesscreenModel.php(191): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Salesscreen.php(453): App\Models\SalesscreenModel->updateData('35', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 12:59:20 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 13:07:51 --> Undefined array key 2
+in APPPATH/Controllers/Salesscreen.php on line 466.
+ 1 APPPATH/Controllers/Salesscreen.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 466)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 13:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 13:16:00 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 13:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 13:18:14 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 13:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 13:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 13:30:09 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 13:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 13:30:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(184): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind(true, '2')
+ 4 APPPATH/Controllers/Salesscreen.php(476): CodeIgniter\BaseModel->find('2')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 13:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 14:24:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR '
+')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(173): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-04', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 14:24:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR '
+')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(173): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            sum(tbl_sales_item.quantity) as total_quantity,
+            GROUP_CONCAT(tbl_sales_item.product_type (SEPARATOR \'
+\')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+            
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-04', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 14:24:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR '
+')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(173): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-04', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 14:24:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR '
+')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(173): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            sum(tbl_sales_item.quantity) as total_quantity,
+            GROUP_CONCAT(tbl_sales_item.product_type (SEPARATOR \'
+\')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+            
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-04', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 14:24:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR '
+')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(173): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-04', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 14:24:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR '
+')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(173): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            sum(tbl_sales_item.quantity) as total_quantity,
+            GROUP_CONCAT(tbl_sales_item.product_type (SEPARATOR \'
+\')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+            
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-04', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 14:24:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR '
+')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(173): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-04', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 14:24:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR '
+')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(173): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            sum(tbl_sales_item.quantity) as total_quantity,
+            GROUP_CONCAT(tbl_sales_item.product_type (SEPARATOR \'
+\')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+            
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-04', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 14:24:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR '
+')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per...' at line 11 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(173): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-04', '2023-11-21', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 14:24:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SEPARATOR '
+')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per...' at line 11
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(173): CodeIgniter\Database\BaseConnection->query('SELECT
+            tbl_shift.id,
+            tbl_shift.shift_name,
+            tbl_items.id,
+            GROUP_CONCAT(tbl_items.name) as item_names,
+            tbl_user.id AS user_id,
+            tbl_user.user_name,
+            tbl_user.user_code,
+            tbl_sales_item.ref_id,
+            sum(tbl_sales_item.quantity) as total_quantity,
+            GROUP_CONCAT(tbl_sales_item.product_type (SEPARATOR \'
+\')) AS product_types,
+            GROUP_CONCAT(tbl_sales_item.per_price) AS per_prices,
+            GROUP_CONCAT(tbl_sales_item.price) AS prices,
+            GROUP_CONCAT(tbl_sales_item.quantity) AS quantities,
+            tbl_sales_screen.*
+        FROM
+            tbl_sales_screen
+        JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+        JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+        JOIN tbl_sales_item ON tbl_sales_screen.id = tbl_sales_item.ref_id
+        JOIN tbl_items ON tbl_sales_item.product_type = tbl_items.id
+        WHERE
+            tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'
+            
+        GROUP BY tbl_sales_item.ref_id', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-04', '2023-11-21', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:32:26 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(184): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind(true, '2')
+ 4 APPPATH/Controllers/Salesscreen.php(476): CodeIgniter\BaseModel->find('2')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:33:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(184): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind(true, '2')
+ 4 APPPATH/Controllers/Salesscreen.php(476): CodeIgniter\BaseModel->find('2')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:34:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Salesscreen.php(476): CodeIgniter\Model->__call('table', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 14:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:34:15 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Salesscreen.php(476): CodeIgniter\Model->__call('table', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:41:52 --> Undefined array key 2
+in APPPATH/Controllers/Salesscreen.php on line 466.
+ 1 APPPATH/Controllers/Salesscreen.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 466)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:43:49 --> Undefined array key 2
+in APPPATH/Controllers/Salesscreen.php on line 466.
+ 1 APPPATH/Controllers/Salesscreen.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 466)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:45:43 --> Undefined array key 2
+in APPPATH/Controllers/Salesscreen.php on line 471.
+ 1 APPPATH/Controllers/Salesscreen.php(471): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 471)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:50:44 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 327.
+ 1 SYSTEMPATH/Database/Query.php(327): implode(',', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `tbl_sales_item`
+WHERE `tbl_sales_item`.`id` IN :tbl_sales_item.id:', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sales_item`
+WHERE `tbl_sales_item`.`id` IN :tbl_sales_item.id:', [...], false)
+ 6 SYSTEMPATH/Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind(false, [...])
+ 8 APPPATH/Controllers/Salesscreen.php(476): CodeIgniter\BaseModel->find([...])
+ 9 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+10 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+11 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:51:13 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('UPDATE `tbl_sales_item` SET `product_type` = :product_type:, `quantity` = :quantity:, `per_price` = :per_price:, `price` = :price:, `modified_by` = :modified_by:, `modified_at` = :modified_at:
+WHERE `id` = :id:', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `tbl_sales_item` SET `product_type` = :product_type:, `quantity` = :quantity:, `per_price` = :per_price:, `price` = :price:, `modified_by` = :modified_by:, `modified_at` = :modified_at:
+WHERE `id` = :id:', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sales_item` SET `product_type` = :product_type:, `quantity` = :quantity:, `per_price` = :per_price:, `price` = :price:, `modified_by` = :modified_by:, `modified_at` = :modified_at:
+WHERE `id` = :id:', [...], false)
+ 6 APPPATH/Models/SalesscreenModel.php(207): CodeIgniter\Database\BaseBuilder->update()
+ 7 APPPATH/Controllers/Salesscreen.php(480): App\Models\SalesscreenModel->updateItemData(Object(stdClass), [...])
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:52:11 --> Undefined array key "id"
+in APPPATH/Controllers/Salesscreen.php on line 461.
+ 1 APPPATH/Controllers/Salesscreen.php(461): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 461)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:53:33 --> Undefined array key "id"
+in APPPATH/Controllers/Salesscreen.php on line 467.
+ 1 APPPATH/Controllers/Salesscreen.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 467)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:53:51 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Salesscreen.php on line 467.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:54:09 --> Undefined array key 2
+in APPPATH/Controllers/Salesscreen.php on line 467.
+ 1 APPPATH/Controllers/Salesscreen.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 467)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 14:55:43 --> Undefined array key 2
+in APPPATH/Controllers/Salesscreen.php on line 467.
+ 1 APPPATH/Controllers/Salesscreen.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 467)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 14:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 15:07:26 --> Undefined array key 2
+in APPPATH/Controllers/Salesscreen.php on line 465.
+ 1 APPPATH/Controllers/Salesscreen.php(465): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 465)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->updateData('35')
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 15:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 15:10:29 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 15:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 15:49:13 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 15:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 15:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 15:58:40 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 15:58:44 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

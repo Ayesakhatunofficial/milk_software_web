@@ -1,0 +1,595 @@
+INFO - 2023-11-03 10:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 10:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-03 11:11:10 --> mysqli_sql_exception: Unknown column 'F02' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT id, user...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, user...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, user...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT id, user...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(22): App\Models\SalesscreenModel->search('F02')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->getCustomerResult()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-03 11:11:10 --> Unknown column 'F02' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/SalesscreenModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT id, user_role, user_name, user_mobile FROM tbl_user WHERE user_code = \'F02\' OR user_mobile = F02 AND user_status = \'active\'')
+ 2 APPPATH/Controllers/Salesscreen.php(22): App\Models\SalesscreenModel->search('F02')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getCustomerResult()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 11:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-03 11:13:28 --> mysqli_sql_exception: Unknown column 'F02' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT id, user...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id, user...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id, user...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/SalesscreenModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT id, user...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php(22): App\Models\SalesscreenModel->search('F02')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Salesscreen->getCustomerResult()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-03 11:13:28 --> Unknown column 'F02' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/SalesscreenModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT id, user_role, user_name, user_mobile FROM tbl_user WHERE user_code = \'F02\' OR user_mobile = F02 AND user_status = \'active\'')
+ 2 APPPATH/Controllers/Salesscreen.php(22): App\Models\SalesscreenModel->search('F02')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getCustomerResult()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 11:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 11:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 12:24:57 --> Undefined property: stdClass::$total_customer
+in APPPATH/Controllers/Salesscreen.php on line 235.
+ 1 APPPATH/Controllers/Salesscreen.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$total_customer', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 235)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->addCustData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 12:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 12:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 13:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 14:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 15:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 15:56:29 --> Unmatched '}'
+in APPPATH/Controllers/Home.php on line 82.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/Milk-Software/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 15:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 15:56:44 --> Unmatched '}'
+in APPPATH/Controllers/Home.php on line 82.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/Milk-Software/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 15:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 16:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-03 16:54:40 --> mysqli_sql_exception: Table 'milk-software.tbl_csv' doesn't exist in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/HomeModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Home.php(40): App\Models\HomeModel->addCsvData(Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Home->importCsvToDb()
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-03 16:54:40 --> Table 'milk-software.tbl_csv' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_csv` (`name`, `email`, `phone`, `created_at`) VALUES (:name:, : email:, : phone:, : created_at:)', [...], false)
+ 2 APPPATH/Models/HomeModel.php(24): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Home.php(40): App\Models\HomeModel->addCsvData([...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->importCsvToDb()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 16:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 17:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 17:43:00 --> Invalid file: "admin/csv/csv.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/csv/csv.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/csv/csv', [], true)
+ 3 APPPATH/Controllers/Home.php(28): view('admin/csv/csv')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->CSV()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 17:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 17:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 17:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 17:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 17:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 17:44:06 --> Invalid file: "admin/csv/csv.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/csv/csv.php')
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/csv/csv', [], true)
+ 3 APPPATH/Controllers/Home.php(28): view('admin/csv/csv')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->CSV()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 17:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 17:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 17:51:42 --> Undefined variable $page_title
+in APPPATH/Views/admin/layout/sidebar.php on line 475.
+ 1 APPPATH/Views/admin/layout/sidebar.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/layout/sidebar.php', 475)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/layout/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/layout/sidebar.php', [], true)
+ 5 APPPATH/Views/admin/rate_chart/addchart.php(3): view('admin/layout/sidebar.php')
+ 6 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/rate_chart/addchart.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/rate_chart/addchart', [], true)
+ 9 APPPATH/Controllers/RateChart.php(12): view('admin/rate_chart/addchart')
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Create()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 17:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 17:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 17:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 17:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 17:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 17:56:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/RateChart.php(25): CodeIgniter\Model->__call('addCsvData', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 17:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:14:20 --> Could not move file "phpS6sV0c" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpS6sV0c', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(22): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699015460_221fbe619d9c8900b835.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 18:17:36 --> Could not move file "phpCIWEuY" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpCIWEuY', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(22): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699015656_e14a2637e81a2f144918.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 18:19:39 --> Could not move file "php1rkryT" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php1rkryT', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(22): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699015779_c7782a0785a34a6c7a8f.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 18:20:08 --> Could not move file "phpSsRCh0" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpSsRCh0', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(22): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699015808_8f3caba40d329794b971.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:20:19 --> Could not move file "phpiVD49I" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpiVD49I', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(22): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699015819_62bffa441726a5e2c6b7.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 18:21:16 --> Could not move file "php7mlaJP" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php7mlaJP', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(22): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699015876_57feb595780b140e077b.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:21:25 --> Could not move file "php6OxZHp" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php6OxZHp', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(22): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699015885_0f5a62f99815c600d26a.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:24:28 --> Could not move file "phpauu32R" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpauu32R', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(23): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699016068_fe977b3d5cc1cedd9eab.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:36:36 --> Could not move file "phpBUyoJq" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpBUyoJq', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699016796_4b672fc49969cd9ee4b9.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:36:44 --> Could not move file "phpgM8TYk" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpgM8TYk', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699016804_2eb785d86d36784c422e.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:37:37 --> Could not move file "phpYFJZl6" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpYFJZl6', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699016857_2ef3bf314afc4c4e8786.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:41:22 --> Could not move file "phplo3uwX" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phplo3uwX', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699017082_049909708f11fbcf7925.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:42:10 --> mkdir(): Permission denied
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permission denied', '/opt/lampp/htdocs/Milk-Software/system/HTTP/Files/UploadedFile.php', 185)
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(185): mkdir('/opt/lampp/htdocs/Milk-Software/writable/uploads/', 511, true)
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('/opt/lampp/htdocs/Milk-Software/writable/uploads/')
+ 4 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/writable/uploads/', '1699017130_acab34164dc0ecf8447c.csv')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:42:51 --> mkdir(): Permission denied
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permission denied', '/opt/lampp/htdocs/Milk-Software/system/HTTP/Files/UploadedFile.php', 185)
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(185): mkdir('/opt/lampp/htdocs/Milk-Software/writable/uploads/', 511, true)
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('/opt/lampp/htdocs/Milk-Software/writable/uploads/')
+ 4 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/writable/uploads/', '1699017171_9c9755530f9a8fa78152.csv')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:44:04 --> Could not move file "phpj0D0KJ" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpj0D0KJ', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699017244_116fb07dbed11d204602.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:44:46 --> Could not move file "phpzmnc3l" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpzmnc3l', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699017286_65bf18b9d9e3936aa3f8.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:47:49 --> fopen(http://localhost/Milk-Software/uploads/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 188.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/Milk-Software/uploads/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', '/opt/lampp/htdocs/Milk-Software/system/HTTP/Files/UploadedFile.php', 188)
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(188): fopen('http://localhost/Milk-Software/uploads/index.html', 'x+b')
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/Milk-Software/uploads/')
+ 4 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/Milk-Software/uploads/', '1699017469_7509990fdf2670889193.csv')
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:51:46 --> Could not move file "php7W88V4" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php7W88V4', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699017706_6c203912a03e427e7d2c.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 18:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 18:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 18:59:41 --> Could not move file "phpudO8Cx" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpudO8Cx', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699018181_e95b89c04113c36e4495.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 19:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 19:00:46 --> Could not move file "phpOSfRnh" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpOSfRnh', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699018246_e264161cec9ac2aa992a.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 19:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 19:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 19:02:35 --> Could not move file "phpymvJBV" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpymvJBV', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699018355_8af0de80c1ec21ec51ba.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 19:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 19:10:35 --> Could not move file "phphLB8WE" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phphLB8WE', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699018835_9a2462d612855e6a2d23.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 19:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 19:10:56 --> Could not move file "phpf1OWVT" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpf1OWVT', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699018856_c64ec9522032dddc0928.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 19:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 19:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 19:17:24 --> Could not move file "phpxOux1R" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpxOux1R', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699019244_12ab92f6ca5148fad279.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 19:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 19:20:33 --> fopen(/opt/lampp/htdocs/Milk-Software/uploads1699019433_3b9707910d947c77cb2e.csv): Failed to open stream: No such file or directory
+in APPPATH/Controllers/RateChart.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/opt/lampp/htdocs/Milk-Software/uploads1699019433_3b9707910d947c77cb2e.csv): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/Milk-Software/app/Controllers/RateChart.php', 40)
+ 2 APPPATH/Controllers/RateChart.php(40): fopen('/opt/lampp/htdocs/Milk-Software/uploads1699019433_3b9707910d947c77cb2e.csv', 'r')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 19:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 19:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 19:21:24 --> fopen(/opt/lampp/htdocs/Milk-Software/uploads1699019484_c5ca89fd74af0a87219d.csv): Failed to open stream: No such file or directory
+in APPPATH/Controllers/RateChart.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/opt/lampp/htdocs/Milk-Software/uploads1699019484_c5ca89fd74af0a87219d.csv): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/Milk-Software/app/Controllers/RateChart.php', 40)
+ 2 APPPATH/Controllers/RateChart.php(40): fopen('/opt/lampp/htdocs/Milk-Software/uploads1699019484_c5ca89fd74af0a87219d.csv', 'r')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 19:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 19:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 19:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 19:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-03 19:24:32 --> Could not move file "php5sDDAT" to "/opt/lampp/htdocs/Milk-Software/uploads/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php5sDDAT', '/opt/lampp/htdocs/Milk-Software/uploads/', '')
+ 2 APPPATH/Controllers/RateChart.php(38): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdocs/Milk-Software/uploads/', '1699019672_a44747b10eeb6ece527c.csv')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\RateChart->Import()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RateChart))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-03 19:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 19:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 19:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-03 19:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

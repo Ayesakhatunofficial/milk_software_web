@@ -1,0 +1,1604 @@
+INFO - 2023-11-20 10:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 10:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 10:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 10:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 10:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 10:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 11:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 11:58:54 --> Unsupported operand types: string * int
+in APPPATH/Controllers/Salesscreen.php on line 73.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:58:54 --> Unsupported operand types: string * int
+in APPPATH/Controllers/Salesscreen.php on line 73.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 12:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 12:10:22 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:10:26 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 12:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 12:13:20 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 12:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 12:16:20 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 12:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 12:45:20 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 12:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 12:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 12:52:12 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 12:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 13:00:47 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 13:00:52 --> Unsupported operand types: string * string
+in APPPATH/Controllers/Salesscreen.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getProductPrice()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 13:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 13:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 15:09:28 --> Array to string conversion
+in APPPATH/Controllers/Salesscreen.php on line 112.
+ 1 APPPATH/Controllers/Salesscreen.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 112)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->addData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 15:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 15:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-20 16:00:48 --> mysqli_sql_exception: Unknown column 'quantity' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT SUM(`qua...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`qua...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`qua...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`qua...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/HomeModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Home.php(21): App\Models\HomeModel->getMilkSaleByDate()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Home->index()
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 16:00:48 --> Unknown column 'quantity' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`quantity`) AS `total_sale_quantity`
+FROM `tbl_sales_screen`
+WHERE `date` = :date:', [...], false)
+ 2 APPPATH/Models/HomeModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Home.php(21): App\Models\HomeModel->getMilkSaleByDate()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 16:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-20 16:01:03 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.quantity' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/PaymentModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Payment.php(13): App\Models\PaymentModel->getCustData()
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Payment->viewCustData()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 16:01:03 --> Unknown column 'tbl_sales_screen.quantity' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/PaymentModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT
+        tbl_user.user_code,
+        tbl_user.user_name,
+        tbl_user.user_mobile,
+        tbl_sales_screen.customer_id,
+        SUM(tbl_sales_screen.total_amount) AS t_amount,
+        SUM(tbl_sales_screen.paid_amount) AS p_amount,
+        SUM(tbl_sales_screen.due_amount) AS d_amount,
+        SUM(tbl_sales_screen.quantity) AS total_qty,
+        tbl_sales_screen.*
+     FROM
+        tbl_sales_screen
+     JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+     GROUP BY
+        customer_id')
+ 2 APPPATH/Controllers/Payment.php(13): App\Models\PaymentModel->getCustData()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Payment->viewCustData()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 16:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 16:12:58 --> Undefined variable $product_type
+in APPPATH/Controllers/Salesscreen.php on line 203.
+ 1 APPPATH/Controllers/Salesscreen.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_type', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 203)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->addData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 16:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 16:14:24 --> Undefined variable $product_type
+in APPPATH/Controllers/Salesscreen.php on line 203.
+ 1 APPPATH/Controllers/Salesscreen.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_type', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 203)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->addData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 16:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 16:16:03 --> Undefined variable $product_type
+in APPPATH/Controllers/Salesscreen.php on line 205.
+ 1 APPPATH/Controllers/Salesscreen.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_type', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 205)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->addData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 16:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 16:17:49 --> Array to string conversion
+in APPPATH/Controllers/Salesscreen.php on line 119.
+ 1 APPPATH/Controllers/Salesscreen.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 119)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->addData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 16:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:08:13 --> A non-numeric value encountered
+in APPPATH/Controllers/Salesscreen.php on line 49.
+ 1 APPPATH/Controllers/Salesscreen.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 49)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 17:08:13 --> A non-numeric value encountered
+in APPPATH/Controllers/Salesscreen.php on line 49.
+ 1 APPPATH/Controllers/Salesscreen.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Salesscreen.php', 49)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->getPrice()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:27:59 --> Undefined property: stdClass::$milk_type
+in APPPATH/Views/admin/salesscreen/viewscreen.php on line 62.
+ 1 APPPATH/Views/admin/salesscreen/viewscreen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$milk_type', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/viewscreen.php', 62)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/viewscreen.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/viewscreen', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(314): view('admin/salesscreen/viewscreen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->viewData()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:30:59 --> Undefined property: stdClass::$milk_type
+in APPPATH/Views/admin/salesscreen/viewscreen.php on line 62.
+ 1 APPPATH/Views/admin/salesscreen/viewscreen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$milk_type', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/viewscreen.php', 62)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/viewscreen.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/viewscreen', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(318): view('admin/salesscreen/viewscreen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->viewData()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:38:35 --> Undefined property: stdClass::$milk_type
+in APPPATH/Views/admin/salesscreen/viewscreen.php on line 62.
+ 1 APPPATH/Views/admin/salesscreen/viewscreen.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$milk_type', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/viewscreen.php', 62)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/viewscreen.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/viewscreen', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(318): view('admin/salesscreen/viewscreen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->viewData()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:43:17 --> Undefined property: stdClass::$milk_type
+in APPPATH/Views/admin/salesscreen/invoice.php on line 71.
+ 1 APPPATH/Views/admin/salesscreen/invoice.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$milk_type', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php', 71)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoice', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(464): view('admin/salesscreen/invoice', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->Invoice('23')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:52:48 --> Undefined property: stdClass::$milk_type
+in APPPATH/Views/admin/salesscreen/invoice.php on line 71.
+ 1 APPPATH/Views/admin/salesscreen/invoice.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$milk_type', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php', 71)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoice', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(467): view('admin/salesscreen/invoice', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->Invoice('34')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:53:32 --> Undefined property: stdClass::$milk_type
+in APPPATH/Views/admin/salesscreen/invoice.php on line 71.
+ 1 APPPATH/Views/admin/salesscreen/invoice.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$milk_type', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php', 71)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoice', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(466): view('admin/salesscreen/invoice', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->Invoice('34')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:55:25 --> Undefined property: stdClass::$milk_type
+in APPPATH/Views/admin/salesscreen/invoice.php on line 71.
+ 1 APPPATH/Views/admin/salesscreen/invoice.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$milk_type', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php', 71)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoice', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(465): view('admin/salesscreen/invoice', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->Invoice('34')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:55:26 --> Undefined property: stdClass::$milk_type
+in APPPATH/Views/admin/salesscreen/invoice.php on line 71.
+ 1 APPPATH/Views/admin/salesscreen/invoice.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$milk_type', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php', 71)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoice', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(465): view('admin/salesscreen/invoice', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->Invoice('34')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:55:38 --> Undefined property: stdClass::$quantity
+in APPPATH/Views/admin/salesscreen/invoice.php on line 81.
+ 1 APPPATH/Views/admin/salesscreen/invoice.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$quantity', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php', 81)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoice', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(465): view('admin/salesscreen/invoice', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->Invoice('34')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:55:50 --> Undefined property: stdClass::$price
+in APPPATH/Views/admin/salesscreen/invoice.php on line 82.
+ 1 APPPATH/Views/admin/salesscreen/invoice.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$price', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php', 82)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoice', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(465): view('admin/salesscreen/invoice', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->Invoice('34')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:56:22 --> Undefined property: stdClass::$price
+in APPPATH/Views/admin/salesscreen/invoice.php on line 101.
+ 1 APPPATH/Views/admin/salesscreen/invoice.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$price', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php', 101)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoice', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(465): view('admin/salesscreen/invoice', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->Invoice('34')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 17:56:25 --> Undefined property: stdClass::$price
+in APPPATH/Views/admin/salesscreen/invoice.php on line 101.
+ 1 APPPATH/Views/admin/salesscreen/invoice.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$price', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php', 101)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoice', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(465): view('admin/salesscreen/invoice', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->Invoice('34')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 18:16:59 --> Undefined property: stdClass::$price
+in APPPATH/Views/admin/salesscreen/invoice.php on line 84.
+ 1 APPPATH/Views/admin/salesscreen/invoice.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$price', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php', 84)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoice.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoice', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(467): view('admin/salesscreen/invoice', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->Invoice('34')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 18:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-20 18:19:26 --> mysqli_sql_exception: Unknown column 'quantity' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT SUM(`qua...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`qua...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`qua...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`qua...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/HomeModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Home.php(21): App\Models\HomeModel->getMilkSaleByDate()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Home->index()
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 18:19:26 --> Unknown column 'quantity' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`quantity`) AS `total_sale_quantity`
+FROM `tbl_sales_screen`
+WHERE `date` = :date:', [...], false)
+ 2 APPPATH/Models/HomeModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Home.php(21): App\Models\HomeModel->getMilkSaleByDate()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 18:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 18:20:05 --> Undefined property: stdClass::$product_type
+in APPPATH/Views/admin/salesscreen/invoiceprint.php on line 65.
+ 1 APPPATH/Views/admin/salesscreen/invoiceprint.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$product_type', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoiceprint.php', 65)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoiceprint.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoiceprint', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(476): view('admin/salesscreen/invoiceprint', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->InvoicePrint('35')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 18:20:36 --> Undefined variable $datas
+in APPPATH/Views/admin/salesscreen/invoiceprint.php on line 57.
+ 1 APPPATH/Views/admin/salesscreen/invoiceprint.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datas', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoiceprint.php', 57)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoiceprint.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoiceprint', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(476): view('admin/salesscreen/invoiceprint', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->InvoicePrint('35')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 18:20:51 --> Undefined property: stdClass::$price
+in APPPATH/Views/admin/salesscreen/invoiceprint.php on line 95.
+ 1 APPPATH/Views/admin/salesscreen/invoiceprint.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$price', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoiceprint.php', 95)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/salesscreen/invoiceprint.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/salesscreen/invoiceprint', [], true)
+ 5 APPPATH/Controllers/Salesscreen.php(477): view('admin/salesscreen/invoiceprint', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Salesscreen->InvoicePrint('35')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salesscreen))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 18:27:40 --> mysqli_sql_exception: Unknown column 'quantity' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT SUM(`qua...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`qua...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`qua...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`qua...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/HomeModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Home.php(21): App\Models\HomeModel->getMilkSaleByDate()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Home->index()
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 18:27:40 --> Unknown column 'quantity' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`quantity`) AS `total_sale_quantity`
+FROM `tbl_sales_screen`
+WHERE `date` = :date:', [...], false)
+ 2 APPPATH/Models/HomeModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Home.php(21): App\Models\HomeModel->getMilkSaleByDate()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 18:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-20 18:45:49 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.quantity' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/PaymentModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Payment.php(13): App\Models\PaymentModel->getCustData()
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Payment->viewCustData()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 18:45:49 --> Unknown column 'tbl_sales_screen.quantity' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/PaymentModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT
+        tbl_user.user_code,
+        tbl_user.user_name,
+        tbl_user.user_mobile,
+        tbl_sales_screen.customer_id,
+        SUM(tbl_sales_screen.total_amount) AS t_amount,
+        SUM(tbl_sales_screen.paid_amount) AS p_amount,
+        SUM(tbl_sales_screen.due_amount) AS d_amount,
+        SUM(tbl_sales_screen.quantity) AS total_qty,
+        tbl_sales_screen.*
+     FROM
+        tbl_sales_screen
+     JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+     GROUP BY
+        customer_id')
+ 2 APPPATH/Controllers/Payment.php(13): App\Models\PaymentModel->getCustData()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Payment->viewCustData()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 18:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-20 19:03:36 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:36 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:37 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:37 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:38 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:38 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:38 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:38 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:39 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:39 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:39 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:39 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:39 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:39 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:39 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:39 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:39 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:39 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:40 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:40 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:42 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:42 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:43 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:43 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:43 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:43 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:43 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:43 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:44 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:44 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:44 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:44 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:44 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:44 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:45 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:45 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:45 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:45 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-02', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:52 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-05', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:52 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-05', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:52 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-05', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:52 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-05', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:53 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-05', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:53 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-05', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 19:03:59 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-05', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:03:59 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-10-05', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 19:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-20 19:05:27 --> mysqli_sql_exception: Unknown column 'tbl_sales_screen.product_type' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:05:27 --> Unknown column 'tbl_sales_screen.product_type' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                JOIN tbl_items on tbl_sales_screen.product_type=tbl_items.id
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 19:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-20 19:18:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE
+                    tbl_sales_screen.date >= '2023-11-01' AND tbl_sales...' at line 21 in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT\n        ...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/ReportModel.php(167): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-20', '', '', '')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-20 19:18:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE
+                    tbl_sales_screen.date >= '2023-11-01' AND tbl_sales...' at line 21
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ReportModel.php(167): CodeIgniter\Database\BaseConnection->query('SELECT
+                    tbl_shift.id,
+                    tbl_shift.shift_name,
+                    tbl_items.id,
+                    tbl_items.name,
+                    tbl_user.id AS user_id,
+                    tbl_user.user_name,
+                    tbl_user.user_code,
+                    tbl_sales_item.product_type,
+                    tbl_sales_item.per_price,
+                    tbl_sales_item.price,
+                    tbl_sales_item.quantity,
+                    tbl_sales_screen.*
+                FROM
+                    tbl_sales_screen
+                JOIN tbl_user ON tbl_sales_screen.customer_id = tbl_user.id
+                JOIN tbl_shift ON tbl_sales_screen.shift_id = tbl_shift.id
+                join tbl_sales_item on tbl_sales_screen.id = tbl_sales_item.ref_id
+                JOIN tbl_items on tbl_sales_item.product_type=tbl_items.id
+                GROUP BY tbl_sales_item.ref_id 
+                WHERE
+                    tbl_sales_screen.date >= ? AND tbl_sales_screen.date <= ? AND tbl_sales_screen.sale_type = \'product\'', [...])
+ 2 APPPATH/Controllers/Report.php(76): App\Models\ReportModel->getProductReportData('2023-11-01', '2023-11-20', '', '', '')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Report->getProductReport()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 19:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

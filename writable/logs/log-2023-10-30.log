@@ -1,0 +1,930 @@
+INFO - 2023-10-30 10:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 10:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 11:28:10 --> Undefined variable $data
+in APPPATH/Views/admin/advance/addadvance.php on line 83.
+ 1 APPPATH/Views/admin/advance/addadvance.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/advance/addadvance.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/advance/addadvance.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/advance/addadvance', [], true)
+ 5 APPPATH/Controllers/Advance.php(13): view('admin/advance/addadvance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->Create()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 11:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 11:55:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Advance.php(76): CodeIgniter\Model->__call('addData', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->addData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 11:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 11:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 12:36:34 --> mysqli_sql_exception: Unknown column 'ref_id' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(93): App\Models\AdvanceModel->addPaymentData(Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->addData()
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 12:36:34 --> Unknown column 'ref_id' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_advance` (`ref_id`, `amount`, `comment`, `created_at`, `created_by`) VALUES (:ref_id:, :amount:, :comment:, :created_at:, :created_by:)', [...], false)
+ 2 APPPATH/Models/AdvanceModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Advance.php(93): App\Models\AdvanceModel->addPaymentData([...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->addData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 12:37:14 --> mysqli_sql_exception: Unknown column 'ref_id' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /opt/lampp/htdocs/Milk-Software/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(93): App\Models\AdvanceModel->addPaymentData(Array)
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->addData()
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#8 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-30 12:37:14 --> Unknown column 'ref_id' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_advance` (`ref_id`, `amount`, `comment`, `created_at`, `created_by`) VALUES (:ref_id:, :amount:, :comment:, :created_at:, :created_by:)', [...], false)
+ 2 APPPATH/Models/AdvanceModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Advance.php(93): App\Models\AdvanceModel->addPaymentData([...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->addData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 12:52:12 --> mysqli_sql_exception: Unknown column 'ADV06' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT amount F...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT amount F...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT amount F...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount F...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(96): App\Models\AdvanceModel->getPrevAmount('ADV06')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->addData()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 12:52:12 --> Unknown column 'ADV06' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount FROM tbl_transaction WHERE ref_id = ADV06 ORDER BY id DESC LIMIT 1')
+ 2 APPPATH/Controllers/Advance.php(96): App\Models\AdvanceModel->getPrevAmount('ADV06')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->addData()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 12:57:46 --> mysqli_sql_exception: Unknown column 'ADV08' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT amount F...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT amount F...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT amount F...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount F...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(96): App\Models\AdvanceModel->getPrevAmount('ADV08')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->addData()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 12:57:46 --> Unknown column 'ADV08' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount FROM tbl_transaction WHERE ref_id = ADV08 ORDER BY id DESC LIMIT 1')
+ 2 APPPATH/Controllers/Advance.php(96): App\Models\AdvanceModel->getPrevAmount('ADV08')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->addData()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 13:07:26 --> Undefined property: stdClass::$name
+in APPPATH/Views/admin/advance/viewadvance.php on line 50.
+ 1 APPPATH/Views/admin/advance/viewadvance.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/advance/viewadvance.php', 50)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/advance/viewadvance.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/advance/viewadvance', [], true)
+ 5 APPPATH/Controllers/Advance.php(125): view('admin/advance/viewadvance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 13:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 13:30:52 --> Undefined variable $result
+in APPPATH/Views/admin/advance/editadvance.php on line 34.
+ 1 APPPATH/Views/admin/advance/editadvance.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/advance/editadvance.php', 34)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/advance/editadvance.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/advance/editadvance', [], true)
+ 5 APPPATH/Controllers/Advance.php(133): view('admin/advance/editadvance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->editData('8')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 13:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 15:33:47 --> mysqli_sql_exception: Unknown column 'ADV06' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT amount F...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT amount F...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT amount F...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount F...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV06')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->updateData('6')
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 15:33:47 --> Unknown column 'ADV06' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount FROM tbl_transaction WHERE ref_id = ADV06 ORDER BY id DESC LIMIT 1')
+ 2 APPPATH/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV06')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->updateData('6')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 15:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 15:34:38 --> mysqli_sql_exception: Unknown column 'ADV07' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT amount F...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT amount F...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT amount F...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount F...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV07')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->updateData('7')
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 15:34:38 --> Unknown column 'ADV07' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount FROM tbl_transaction WHERE ref_id = ADV07 ORDER BY id DESC LIMIT 1')
+ 2 APPPATH/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV07')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->updateData('7')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 15:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 15:37:45 --> mysqli_sql_exception: Unknown column 'ADV07' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT amount F...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT amount F...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT amount F...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount F...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV07')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->updateData('7')
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 15:37:45 --> Unknown column 'ADV07' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount FROM tbl_transaction WHERE ref_id = ADV07 ORDER BY id DESC LIMIT 1')
+ 2 APPPATH/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV07')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->updateData('7')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 15:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 15:38:50 --> mysqli_sql_exception: Unknown column 'ADV07' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT amount F...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT amount F...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT amount F...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount F...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV07')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->updateData('7')
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 15:38:50 --> Unknown column 'ADV07' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount FROM tbl_transaction WHERE ref_id = ADV07 ORDER BY id DESC LIMIT 1')
+ 2 APPPATH/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV07')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->updateData('7')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 15:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 15:39:22 --> mysqli_sql_exception: Unknown column 'ADV09' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT amount F...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT amount F...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT amount F...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount F...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV09')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->updateData('9')
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 15:39:22 --> Unknown column 'ADV09' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount FROM tbl_transaction WHERE ref_id = ADV09 ORDER BY id DESC LIMIT 1')
+ 2 APPPATH/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV09')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->updateData('9')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 15:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 15:41:03 --> mysqli_sql_exception: Unknown column 'ADV09' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT amount F...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT amount F...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT amount F...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount F...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV09')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->updateData('9')
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 15:41:03 --> Unknown column 'ADV09' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount FROM tbl_transaction WHERE ref_id = ADV09 ORDER BY id DESC LIMIT 1')
+ 2 APPPATH/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV09')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->updateData('9')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 15:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 15:41:08 --> mysqli_sql_exception: Unknown column 'ADV09' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT amount F...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT amount F...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT amount F...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount F...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV09')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->updateData('9')
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 15:41:08 --> Unknown column 'ADV09' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount FROM tbl_transaction WHERE ref_id = ADV09 ORDER BY id DESC LIMIT 1')
+ 2 APPPATH/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV09')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->updateData('9')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 15:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 15:43:33 --> mysqli_sql_exception: Unknown column 'ADV09' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT amount F...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT amount F...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT amount F...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount F...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV09')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->updateData('9')
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 15:43:33 --> Unknown column 'ADV09' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount FROM tbl_transaction WHERE ref_id = ADV09 ORDER BY ref_id DESC LIMIT 1')
+ 2 APPPATH/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV09')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->updateData('9')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 15:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 15:43:58 --> mysqli_sql_exception: Unknown column 'ADV09' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT amount F...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT amount F...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT amount F...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount F...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV09')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->updateData('9')
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 15:43:58 --> Unknown column 'ADV09' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount FROM tbl_transaction WHERE ref_id = ADV09 ')
+ 2 APPPATH/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV09')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->updateData('9')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 15:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 15:44:08 --> mysqli_sql_exception: Unknown column 'ADV09' in 'where clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT amount F...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT amount F...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT amount F...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount F...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV09')
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\Advance->updateData('9')
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 15:44:08 --> Unknown column 'ADV09' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdvanceModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT amount FROM tbl_transaction WHERE ref_id = ADV09 ')
+ 2 APPPATH/Controllers/Advance.php(176): App\Models\AdvanceModel->getPrevAmount('ADV09')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->updateData('9')
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 15:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 15:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 16:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 16:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 17:08:20 --> Undefined property: stdClass::$farmer_name
+in APPPATH/Views/admin/milk_collection/viewcollection.php on line 54.
+ 1 APPPATH/Views/admin/milk_collection/viewcollection.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$farmer_name', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/viewcollection.php', 54)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/viewcollection.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/milk_collection/viewcollection', [], true)
+ 5 APPPATH/Controllers/MilkCollection.php(133): view('admin/milk_collection/viewcollection', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 17:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 17:16:07 --> Undefined property: stdClass::$farmer_name
+in APPPATH/Views/admin/milk_collection/viewcollection.php on line 54.
+ 1 APPPATH/Views/admin/milk_collection/viewcollection.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$farmer_name', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/viewcollection.php', 54)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/viewcollection.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/milk_collection/viewcollection', [], true)
+ 5 APPPATH/Controllers/MilkCollection.php(134): view('admin/milk_collection/viewcollection', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 17:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 17:18:16 --> Attempt to read property "user_id" on array
+in APPPATH/Views/admin/milk_collection/editcollection.php on line 30.
+ 1 APPPATH/Views/admin/milk_collection/editcollection.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php', 30)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/milk_collection/editcollection', [], true)
+ 5 APPPATH/Controllers/MilkCollection.php(144): view('admin/milk_collection/editcollection', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->editData('2')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 17:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 17:20:47 --> Attempt to read property "user_id" on array
+in APPPATH/Views/admin/milk_collection/editcollection.php on line 30.
+ 1 APPPATH/Views/admin/milk_collection/editcollection.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php', 30)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/milk_collection/editcollection', [], true)
+ 5 APPPATH/Controllers/MilkCollection.php(144): view('admin/milk_collection/editcollection', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->editData('2')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 17:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 17:20:51 --> Attempt to read property "user_id" on array
+in APPPATH/Views/admin/milk_collection/editcollection.php on line 30.
+ 1 APPPATH/Views/admin/milk_collection/editcollection.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php', 30)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/milk_collection/editcollection', [], true)
+ 5 APPPATH/Controllers/MilkCollection.php(144): view('admin/milk_collection/editcollection', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->editData('2')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 17:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 17:22:13 --> Attempt to read property "user_id" on array
+in APPPATH/Views/admin/milk_collection/editcollection.php on line 30.
+ 1 APPPATH/Views/admin/milk_collection/editcollection.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php', 30)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/milk_collection/editcollection', [], true)
+ 5 APPPATH/Controllers/MilkCollection.php(144): view('admin/milk_collection/editcollection', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->editData('2')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 17:22:15 --> mysqli_sql_exception: Unknown column 'tbl_milk_collection.user_id' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT tbl_shif...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tbl_shif...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbl_shif...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/MilkCollectionModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT tbl_shif...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/MilkCollection.php(133): App\Models\MilkCollectionModel->getData()
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 17:22:15 --> Unknown column 'tbl_milk_collection.user_id' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/MilkCollectionModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT tbl_shift.id AS shift_id, tbl_shift.shift_name, tbl_user.id AS user_id,tbl_user.user_name, tbl_milk_collection.*
+        FROM tbl_milk_collection
+        JOIN tbl_shift ON tbl_milk_collection.shift_id = tbl_shift.id
+        JOIN tbl_user ON tbl_milk_collection.user_id = tbl_user.id')
+ 2 APPPATH/Controllers/MilkCollection.php(133): App\Models\MilkCollectionModel->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 17:22:16 --> mysqli_sql_exception: Unknown column 'tbl_milk_collection.user_id' in 'on clause' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT tbl_shif...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tbl_shif...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbl_shif...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/MilkCollectionModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT tbl_shif...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/MilkCollection.php(133): App\Models\MilkCollectionModel->getData()
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 17:22:16 --> Unknown column 'tbl_milk_collection.user_id' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/MilkCollectionModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT tbl_shift.id AS shift_id, tbl_shift.shift_name, tbl_user.id AS user_id,tbl_user.user_name, tbl_milk_collection.*
+        FROM tbl_milk_collection
+        JOIN tbl_shift ON tbl_milk_collection.shift_id = tbl_shift.id
+        JOIN tbl_user ON tbl_milk_collection.user_id = tbl_user.id')
+ 2 APPPATH/Controllers/MilkCollection.php(133): App\Models\MilkCollectionModel->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 17:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 17:30:19 --> mysqli_sql_exception: Unknown column 'tbl_shift.id' in 'field list' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT  tbl_shi...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  tbl_shi...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  tbl_shi...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/MilkCollectionModel.php(56): CodeIgniter\Database\BaseConnection->query('SELECT  tbl_shi...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/MilkCollection.php(133): App\Models\MilkCollectionModel->getData()
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 17:30:19 --> Unknown column 'tbl_shift.id' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/MilkCollectionModel.php(56): CodeIgniter\Database\BaseConnection->query('SELECT  tbl_shift.id AS shift_id, tbl_shift.shift_name,tbl_user.id AS user_id, tbl_user.user_name, tbl_milk_collection.*
+        FROM tbl_milk_collection
+        JOIN tbl_user ON tbl_milk_collection.farmer_id = tbl_user.id')
+ 2 APPPATH/Controllers/MilkCollection.php(133): App\Models\MilkCollectionModel->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 17:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 17:33:20 --> Attempt to read property "user_id" on array
+in APPPATH/Views/admin/milk_collection/editcollection.php on line 30.
+ 1 APPPATH/Views/admin/milk_collection/editcollection.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php', 30)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/milk_collection/editcollection', [], true)
+ 5 APPPATH/Controllers/MilkCollection.php(144): view('admin/milk_collection/editcollection', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->editData('2')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 17:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 17:34:05 --> Undefined property: stdClass::$farmer_name
+in APPPATH/Views/admin/milk_collection/editcollection.php on line 34.
+ 1 APPPATH/Views/admin/milk_collection/editcollection.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$farmer_name', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php', 34)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/milk_collection/editcollection', [], true)
+ 5 APPPATH/Controllers/MilkCollection.php(144): view('admin/milk_collection/editcollection', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->editData('2')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 17:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 17:34:07 --> Undefined property: stdClass::$farmer_name
+in APPPATH/Views/admin/milk_collection/editcollection.php on line 34.
+ 1 APPPATH/Views/admin/milk_collection/editcollection.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$farmer_name', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php', 34)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/milk_collection/editcollection.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/milk_collection/editcollection', [], true)
+ 5 APPPATH/Controllers/MilkCollection.php(144): view('admin/milk_collection/editcollection', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->editData('2')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 17:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 17:45:21 --> Undefined array key "col_boy_id"
+in APPPATH/Controllers/MilkCollection.php on line 136.
+ 1 APPPATH/Controllers/MilkCollection.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "col_boy_id"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/MilkCollection.php', 136)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 17:46:36 --> Undefined array key "col_boy_id"
+in APPPATH/Controllers/MilkCollection.php on line 136.
+ 1 APPPATH/Controllers/MilkCollection.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "col_boy_id"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/MilkCollection.php', 136)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 17:46:37 --> Undefined array key "col_boy_id"
+in APPPATH/Controllers/MilkCollection.php on line 136.
+ 1 APPPATH/Controllers/MilkCollection.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "col_boy_id"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/MilkCollection.php', 136)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 17:46:37 --> Undefined array key "col_boy_id"
+in APPPATH/Controllers/MilkCollection.php on line 136.
+ 1 APPPATH/Controllers/MilkCollection.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "col_boy_id"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/MilkCollection.php', 136)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 17:46:38 --> Undefined array key "col_boy_id"
+in APPPATH/Controllers/MilkCollection.php on line 136.
+ 1 APPPATH/Controllers/MilkCollection.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "col_boy_id"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/MilkCollection.php', 136)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 17:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 17:51:12 --> mysqli_sql_exception: Not unique table/alias: 'tbl_user' in /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /opt/lampp/htdocs/Milk-Software/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT  tbl_shi...', 0)
+#1 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  tbl_shi...')
+#2 /opt/lampp/htdocs/Milk-Software/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  tbl_shi...')
+#3 /opt/lampp/htdocs/Milk-Software/app/Models/MilkCollectionModel.php(55): CodeIgniter\Database\BaseConnection->query('SELECT  tbl_shi...')
+#4 /opt/lampp/htdocs/Milk-Software/app/Controllers/MilkCollection.php(133): App\Models\MilkCollectionModel->getData()
+#5 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+#6 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+#7 /opt/lampp/htdocs/Milk-Software/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/Milk-Software/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 17:51:12 --> Not unique table/alias: 'tbl_user'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/MilkCollectionModel.php(55): CodeIgniter\Database\BaseConnection->query('SELECT  tbl_shift.id AS shift_id, tbl_shift.shift_name,tbl_user.id AS user_id, tbl_user.user_name, tbl_milk_collection.*
+        FROM tbl_milk_collection
+        JOIN tbl_shift ON tbl_milk_collection.shift_id = tbl_shift.id
+        JOIN tbl_user ON tbl_milk_collection.farmer_id = tbl_user.id
+        JOIN tbl_user ON tbl_milk_collection.col_boy_id = tbl_user.id')
+ 2 APPPATH/Controllers/MilkCollection.php(133): App\Models\MilkCollectionModel->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\MilkCollection->viewData()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MilkCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 17:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 17:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 18:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 19:00:52 --> Undefined variable $page_title
+in APPPATH/Views/admin/layout/sidebar.php on line 376.
+ 1 APPPATH/Views/admin/layout/sidebar.php(376): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/opt/lampp/htdocs/Milk-Software/app/Views/admin/layout/sidebar.php', 376)
+ 2 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/layout/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/layout/sidebar.php', [], true)
+ 5 APPPATH/Views/admin/advance/collect.php(3): view('admin/layout/sidebar.php')
+ 6 SYSTEMPATH/View/View.php(226): include('/opt/lampp/htdocs/Milk-Software/app/Views/admin/advance/collect.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('admin/advance/collect', [], true)
+ 9 APPPATH/Controllers/Advance.php(223): view('admin/advance/collect')
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->CollectData('7')
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 19:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 19:09:05 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 118.
+ 1 APPPATH/Controllers/Advance.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 118)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:10:04 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 118.
+ 1 APPPATH/Controllers/Advance.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 118)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:10:06 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 118.
+ 1 APPPATH/Controllers/Advance.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 118)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 19:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 19:10:28 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 118.
+ 1 APPPATH/Controllers/Advance.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 118)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:11:21 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 118.
+ 1 APPPATH/Controllers/Advance.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 118)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:13:12 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Advance.php on line 118.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:13:52 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Advance.php on line 118.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:16:29 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 118.
+ 1 APPPATH/Controllers/Advance.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 118)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:16:30 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 118.
+ 1 APPPATH/Controllers/Advance.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 118)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:16:31 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 118.
+ 1 APPPATH/Controllers/Advance.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 118)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:16:31 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 118.
+ 1 APPPATH/Controllers/Advance.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 118)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 19:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 19:29:52 --> Undefined array key "data"
+in APPPATH/Controllers/Advance.php on line 118.
+ 1 APPPATH/Controllers/Advance.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 118)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:30:13 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 119.
+ 1 APPPATH/Controllers/Advance.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 119)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:30:14 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 119.
+ 1 APPPATH/Controllers/Advance.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 119)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:30:15 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 119.
+ 1 APPPATH/Controllers/Advance.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 119)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:30:15 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 119.
+ 1 APPPATH/Controllers/Advance.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 119)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:30:16 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 119.
+ 1 APPPATH/Controllers/Advance.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 119)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->viewData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 19:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 19:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 19:45:59 --> Undefined array key "ref_code"
+in APPPATH/Controllers/Advance.php on line 248.
+ 1 APPPATH/Controllers/Advance.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ref_code"', '/opt/lampp/htdocs/Milk-Software/app/Controllers/Advance.php', 248)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Advance->addCollectData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advance))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
